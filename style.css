@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url('./assets/Dataweek_projectbackground 2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+
+.labels img:nth-child(1) {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    z-index: 10;
+    transform: translate(70px, 90px);
+}
+
+.labels img:nth-child(2) {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    z-index: 10;
+    transform: translate(185px, 238px);
+}
+
+.labels img:nth-child(3) {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    z-index: 10;
+    transform: translate(492px, 238px);
+}
+
+.labels img:nth-child(4) {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    z-index: 10;
+    transform: translate(800px, 238px);
+}
+
+.labels img:nth-child(5) {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    z-index: 10;
+    transform: translate(1107px, 238px);
+}
+
+.labels img:nth-child(6) {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    z-index: 10;
+    transform: translate(1242px, 100px);
+}
+
+
+#haltes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 1500px;
+    height: 400px;
+    position: relative;
+    transform: scale(0.85);
+    margin-top: 10rem;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.metro {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    transition: all 0.3s ease;
+    position: absolute;
+    border-radius: 100%;
+    z-index: 999;
+    left: 0;
+    top: 0;
+}
+
+.popups img {
+    width: 80vw;
+    position: absolute;
+    z-index: 1000;
+    left: 50%;
+    bottom: 0;
+    transition: all 0.3s ease;
+    transform: translate(-50%, -500%);
+    opacity: 0;
+    object-fit: cover;
+}
+
+.popupOne.visible {
+    transform: translate(-50%, 100%);
+    opacity: 1;
+}
+
+.popupTwo.visible {
+    transform: translate(-50%, 100%);
+    opacity: 1;
+}
+
+.popupThree.visible {
+    transform: translate(-50%, 100%);
+    opacity: 1;
+}
+
+.popupFour.visible {
+    transform: translate(-50%, 100%);
+    opacity: 1;
+}
+
+.popupFive.visible {
+    transform: translate(-50%, 100%);
+    opacity: 1;
+}
+
+.popupSix.visible {
+    transform: translate(-50%, 100%);
+    opacity: 1;
+}
