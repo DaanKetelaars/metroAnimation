@@ -1,4 +1,5 @@
 let metro = document.querySelector('.metro');
+metro.style.transform = "translate(75px, 95px)";
 const haltes = document.getElementsByClassName("haltes");
 
 const DOMstrings = {
@@ -60,8 +61,7 @@ endPos()
 
 
 
-// const startStyle = window.getComputedStyle(startPosition, null).getPropertyValue("transform")
-// metro.style.transform = startStyle;
+
 
 const keyFunc = (e) => {
     e.preventDefault();
@@ -99,6 +99,7 @@ const keyFunc = (e) => {
         popupOne.classList.remove('visible');
         popupTwo.classList.remove('visible');
         popupFour.classList.remove('visible');
+        10
         popupFive.classList.remove('visible');
         popupSix.classList.remove('visible');
     } else if (e.keyCode == 51) {
